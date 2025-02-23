@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Oh-My Graham!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Order Now</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="reviews.html">Reviews</a>
+    </nav>
+    <main>
+        <h2>Place Your Order</h2>
+        <form action="mailto:ohmygrahamm@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="flavor">Flavor:</label><br>
+            <select id="flavor" name="flavor">
+                <option>Cookies & Cream</option>
+                <option>Rocky Road</option>
+                <option>Ube</option>
+                <option>Cheese</option>
+            </select><br>
+            
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+            
+            <label for="address">Delivery Address:</label><br>
+            <textarea id="address" name="address" required></textarea><br>
+            
+            <input type="submit" value="Submit Order">
+        </form>
+    </main>
+    <footer>
+        <p>Follow us on <a href="https://www.facebook.com/OhMyGraham" target="_blank">Facebook</a></p>
+        <p>Contact us: <a href="mailto:ohmygrahamm@gmail.com">ohmygrahamm@gmail.com</a></p>
+    </footer>
+</body>
+</html>
